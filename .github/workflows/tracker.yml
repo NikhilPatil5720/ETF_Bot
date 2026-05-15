@@ -2,7 +2,7 @@ name: Gold ETF Bot
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "*/1 * * * *"
 
   workflow_dispatch:
 
