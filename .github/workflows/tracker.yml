@@ -1,18 +1,15 @@
 name: Gold ETF Bot
 
 on:
-  schedule:
-    - cron: "*/1 * * * *"
-
   workflow_dispatch:
+  schedule:
+    - cron: '*/5 * * * *'
 
 jobs:
   run-bot:
-
     runs-on: ubuntu-latest
 
     steps:
-
       - name: Checkout Repository
         uses: actions/checkout@v4
 
